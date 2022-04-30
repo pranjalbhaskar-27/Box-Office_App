@@ -1,0 +1,97 @@
+body{
+  background-image:url("https://www.wallpapertip.com/wmimgs/38-382944_film-background-images-hd.jpg") ;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+input {
+
+    width: 280px;
+  }
+
+  #movies {
+
+    height:50%;
+    width: 90%;
+    /* margin-left:32%; */
+    /* border: solid 1px black; */
+    /* overflow:scroll; */
+    /* background-color: rgb(221, 158, 81); */
+    margin: auto;
+    scrollbar-color: transparent;
+    /* opacity: 0.9; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  #query{
+    height: 40px;
+    background-color: bisque;
+    border-radius:10px;
+    box-shadow: 3px 3px 3px blue;
+    margin-bottom: 40px;
+
+  }
+  .div1{
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 100%;
+    border-radius: 2px 3px 2px;
+    justify-content: space-between;
+    height: 70%;
+    margin-top: 10px;
+    background-color: black;
+    /* opacity: 0.7; */
+  }
+  #image{
+    width: 100%;
+    /* height: 50px; */
+    /* display:none */
+    border-radius: 10px;
+    /* opacity: 1; */
+  }
+
+  #div2{
+    /* border: 1px solid red ; */
+    width: 50%;
+    height: 100%;
+
+  }
+  #div3{
+    /* border: 1px solid rgb(0, 153, 255)  ; */
+    width: 100%;
+    margin: auto;
+    margin-left: 7px;
+    font-size: small;
+    /* text-align: center; */
+    color: white;
+  }
+  #bigdiv{
+    margin: auto;
+    /* border: 1px solid magenta; */
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+  }
+  #divText{
+    border: 1px solid;
+    width: 100%;
+   background-color: rgb(221, 221, 74);
+   border-radius:15px ;
+   font-size: large;
+   font-weight: bolder;
+  }
+  #textDiv{
+    border: 1px solid;
+    width: 100%;
+    background-color: rgb(62, 172, 95);
+    border-radius:15px ;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+
+  }
+  h1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 70px;
+
+  }
